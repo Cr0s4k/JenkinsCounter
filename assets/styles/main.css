@@ -1,0 +1,33 @@
+.container-fluid{
+    margin-top: 5px;
+}
+
+.row{
+    margin-top: 13px;
+}
+
+.champInfo{
+    border-bottom: 2px solid #0a3a6d;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.champName > h4{
+    text-align: center;
+}
+
+.champImg{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 576px){
+    .champInfo{
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .champImg{
+        text-align: center;
+    }
+}
